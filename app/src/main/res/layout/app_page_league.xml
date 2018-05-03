@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:background="@drawable/ronaldo_bicycle"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:weightSum="100">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="94dp"
+        android:background="#ffffff"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        tools:context=".MainActivity"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="338dp">
+
+        <ImageButton
+            android:id="@+id/laLiga"
+            android:layout_width="75dp"
+            android:layout_height="77dp"
+            android:background="@drawable/laliga"
+            tools:layout_editor_absoluteX="156dp"
+            tools:layout_editor_absoluteY="276dp" />
+
+        <ImageButton
+            android:id="@+id/Bundesliga"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@drawable/bundesliga"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="276dp" />
+
+        <ImageButton
+            android:id="@+id/serieA"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@drawable/serie_a"
+            tools:layout_editor_absoluteX="228dp"
+            tools:layout_editor_absoluteY="276dp" />
+
+        <ImageButton
+            android:id="@+id/premierLeague"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@drawable/premier_league"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="276dp" />
+
+        <ImageButton
+            android:id="@+id/Ligue1"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@drawable/league_un"
+            tools:layout_editor_absoluteX="295dp"
+            tools:layout_editor_absoluteY="276dp" />
+
+    </LinearLayout>
+</RelativeLayout>
